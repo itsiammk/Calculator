@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle');
+
+body{
+    font-family: 'Dongle', sans-serif;
+    background-color: black;
+}
+#container{
+    width: 100%;
+    height: 610px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(bgImg.jpg);
+    margin: 20px auto;
+    /* padding: 20px auto; */
+}
+#container h1{
+    text-align: center;
+    font-size: 220%;
+}
+#calculator{
+    width: 320px;
+    height: 505px;
+    background-color: rgb(251, 255, 255);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px  rgba(4, 217, 245, 0.363);
+}
+#result{
+    height: 112px;
+    
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: -20px 20px;
+    padding-top: 2px;
+    font-size: 20px;
+    color: rgb(44, 112, 112);
+}
+#output{
+    text-align: right;
+    height: 50px;
+    margin: 0px 20px;
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(9, 147, 182);
+}
+#keyboard{
+    height: 400px;
+}
+.operator , .number , .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.number, .empty{
+    background-color: rgb(251, 255, 255);
+}
+.operator:active , .number:active{
+    font-size: 15px;
+}
+button:nth-child(1){
+    /* font-size: 28px; */
+    background-color: rgba(121, 10, 248, 0.671);
+}
+button:nth-child(2){
+    /* font-size: 28px; */
+    background-color: rgba(10, 14, 248, 0.658);
+}
+button:nth-child(3){
+    /* font-size: 28px; */
+    background-color: rgba(10, 141, 248, 0.788);
+}
+button:nth-child(4){
+    font-size: 28px;
+    background-color: rgb(10, 193, 248);
+}
+button:nth-child(8){
+    font-size: 28px;
+    background-color: rgb(10, 232, 248);
+}
+button:nth-child(12){
+    font-size: 28px;
+    background-color: rgb(10, 248, 169);
+}
+button:nth-child(16){
+    font-size: 28px;
+    background-color: rgb(10, 248, 109);
+}
+button:nth-child(20){
+    font-size: 28px;
+    background-color: rgba(10, 248, 22, 0.822);
+}
